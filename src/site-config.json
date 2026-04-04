@@ -1,0 +1,608 @@
+{
+  "business": {
+    "name": "Legacy Painting",
+    "phone": "555-pai-r94",
+    "category": "painting",
+    "city": "Indianapolis",
+    "state": "IN"
+  },
+  "design": {
+    "preset": {
+      "id": "painting-heritage-craft",
+      "categoryGroup": "painting",
+      "name": "Heritage Craft",
+      "recipeFile": "painting/heritage-craft.astro",
+      "colors": {
+        "primary": "#8B7B3C",
+        "primaryDark": "#534a24",
+        "primaryLight": "#d6d1bb",
+        "secondary": "#766933",
+        "accent": "#8B7B3C",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#766933",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "painting/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Elevating Indianapolis Homes",
+      "heroSubline": "Transform your space with precision painting tailored to Indiana's climate. Serving Carmel, Fishers, and Noblesville with artistry and care.",
+      "aboutTitle": "Crafting Color Stories Since 2012",
+      "aboutText": [
+        "Founded in Indianapolis, Legacy Painting began with a simple mission: to bring enduring beauty to homes across Central Indiana. Our roots in Marion County give us unique insight into the architectural character of Broad Ripple bungalows, Meridian-Kessler colonials, and modern Carmel estates alike.",
+        "We approach every project as collaborators, listening to your vision while offering expert guidance on finishes that withstand our freeze-thaw winters and humid summers. Our 20-point preparation process ensures your paint job lasts years, not seasons.",
+        "When we're not transforming homes, you'll find us supporting local arts initiatives and volunteering with Habitat for Humanity Indianapolis, because we believe vibrant communities start with well-cared-for homes."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adaptive Formulas",
+          "description": "We use premium paints specifically formulated to resist Indianapolis' temperature extremes and clay soil moisture."
+        },
+        {
+          "title": "Historic Home Specialists",
+          "description": "From restoring 1920s woodwork to color-matching original finishes, we preserve your home's character."
+        },
+        {
+          "title": "15-Year Craftsmanship",
+          "description": "Every stroke reflects our decade-plus experience with Central Indiana's unique architectural styles."
+        },
+        {
+          "title": "Neighborhood Color Consultations",
+          "description": "Get expert advice on palettes that complement your area's aesthetic, whether you're in Fountain Square or Geist."
+        }
+      ],
+      "ctaHeadline": "Ready for a Home That Inspires?",
+      "ctaSubline": "Schedule your free color consultation with our Indianapolis painting team today."
+    },
+    "services": [
+      {
+        "slug": "interior-painting",
+        "name": "Interior Painting",
+        "shortDescription": "Breath new life into your living spaces with our meticulous interior transformations.",
+        "description": "Your walls tell your home's story—let us help you write the next chapter. Our interior painting service begins with a deep understanding of your Indianapolis home's unique needs, from humidity-resistant finishes for summer months to warm tones that combat our gray winters.\n\nWe specialize in handling the intricate details of historic Meridian-Kessler homes and modern Fishers open-concept designs alike. Using low-VOC paints that stand up to Indiana's seasonal shifts, we prep surfaces with painstaking attention to detail, addressing the hairline cracks common in our clay-rich soil before applying your perfect shade.\n\nThe process includes comprehensive furniture protection, artisan-grade trim work, and final inspections under different lighting conditions to ensure your new palette shines from dawn to Monument Circle sunset.",
+        "process": [
+          "Step 1: Comprehensive surface evaluation and crack repair using Indianapolis-specific techniques",
+          "Step 2: Custom color consultation considering your home's architecture and natural light patterns",
+          "Step 3: Precision application with attention to period-appropriate finishes for historic properties",
+          "Step 4: Final walkthrough with daylight and artificial light assessment"
+        ],
+        "benefits": [
+          "Enhanced mood and ambiance tailored to Indiana's seasons",
+          "Durable finishes resistant to humidity-induced peeling",
+          "Increased home value with on-trend yet timeless palettes",
+          "Improved indoor air quality with low-VOC options"
+        ],
+        "faq": [
+          {
+            "question": "How do you protect my belongings during painting?",
+            "answer": "We use premium drop cloths secured with painter's tape, create designated pathways, and can fully wrap furniture upon request. For delicate items in historic homes, we offer specialized protection services."
+          },
+          {
+            "question": "What paint brands work best in Indianapolis homes?",
+            "answer": "We prefer Benjamin Moore and Sherwin-Williams for their formulations that resist moisture from our clay soil and temperature fluctuations. For historic properties, we often use specialty heritage paints."
+          },
+          {
+            "question": "Can you match my home's original historic colors?",
+            "answer": "Absolutely. We've successfully color-matched original finishes in Irvington Victorians and Broad Ripple bungalows using archival research and custom tinting techniques."
+          }
+        ]
+      },
+      {
+        "slug": "exterior-painting",
+        "name": "Exterior Painting",
+        "shortDescription": "Protect and beautify your home with durable finishes engineered for Indiana's climate.",
+        "description": "Indianapolis weather puts your home's exterior through punishing extremes—from winter ice storms to summer humidity. Our exterior painting service goes beyond aesthetics to provide a protective barrier against the elements, using premium elastomeric coatings that expand and contract with temperature changes.\n\nWe specialize in addressing Central Indiana's specific challenges: sealing against moisture from our clay-rich soil, preventing wood rot in historic district homes, and selecting UV-resistant colors that won't fade under the Midwest sun. For newer developments in Carmel and Fishers, we employ modern spraying techniques complemented by hand-brushed detailing.\n\nOur process includes thorough surface preparation to combat common issues like efflorescence on brick foundations and peeling on vinyl siding—problems we know well from servicing homes near White River for over a decade. The result? Curb appeal that lasts through Indianapolis' freeze-thaw cycles.",
+        "process": [
+          "Step 1: Pressure washing with proper PSI settings for your siding material",
+          "Step 2: Repair of weather-induced damage (cracked caulk, wood rot, brick spalling)",
+          "Step 3: Application of premium primers and paints using climate-appropriate techniques",
+          "Step 4: Final inspection focusing on vulnerable areas like eaves and foundations"
+        ],
+        "benefits": [
+          "Enhanced protection against moisture and temperature extremes",
+          "Increased resistance to mold and mildew common in humid summers",
+          "Improved energy efficiency with reflective coating options",
+          "Preserved structural integrity for historic and modern homes alike"
+        ],
+        "faq": [
+          {
+            "question": "How often should Indianapolis homes be repainted?",
+            "answer": "With our premium paints and preparation, most homes last 7-10 years. North-facing walls in shaded areas may need attention sooner due to moisture retention."
+          },
+          {
+            "question": "Can you paint during Indiana's unpredictable spring weather?",
+            "answer": "We monitor conditions carefully and use fast-drying formulations when needed. For optimal results, we recommend spring and fall painting in 50-85°F windows."
+          },
+          {
+            "question": "Do you handle HOA color approval processes?",
+            "answer": "Yes, we're experienced navigating Carmel and Fishers community guidelines, and can provide color samples that meet most association requirements."
+          }
+        ]
+      },
+      {
+        "slug": "cabinet-refinishing",
+        "name": "Cabinet Refinishing",
+        "shortDescription": "Revitalize your kitchen without demolition using our artisanal refinishing techniques.",
+        "description": "In Indianapolis' diverse housing market—from Broad Ripple cottages to Geist waterfront homes—kitchen cabinets often show their age before homeowners are ready for full remodels. Our cabinet refinishing service breathes new life into existing cabinetry with multi-step processes that respect your home's character while providing modern durability.\n\nWe specialize in handling the unique challenges of Indiana homes: evening out moisture-induced warping in older cabinets, recreating vintage glaze finishes for historic properties, and updating builder-grade cabinetry in newer Fishers developments. Using hardwearing conversion varnishes and lacquers that resist humidity, we transform surfaces without the waste and expense of full replacement.\n\nFor homes near the White River or in flood-prone areas, we offer extra moisture barriers. For contemporary Carmel kitchens, we provide sleek, touch-resistant finishes. Every project includes careful hardware removal/reinstallation and thorough workspace containment to keep your home livable during the process.",
+        "process": [
+          "Step 1: Deep cleaning to remove grease and mineral deposits from hard water",
+          "Step 2: Repair of drawer slides, warped panels, and other functional issues",
+          "Step 3: Application of stain or paint with appropriate grain filling for oak cabinets common in 90s homes",
+          "Step 4: Protective topcoat application with curing time suited to Indiana's humidity"
+        ],
+        "benefits": [
+          "Cost-effective alternative to full cabinet replacement",
+          "Custom finishes that complement your home's era and style",
+          "Improved durability against Indiana's humidity fluctuations",
+          "Reduced project timeline compared to full kitchen renovations"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my existing cabinet color for new additions?",
+            "answer": "Yes, we use professional color-matching technology that accounts for aging and wear on your current cabinets, creating seamless blends."
+          },
+          {
+            "question": "How do your finishes hold up to Indianapolis' humidity?",
+            "answer": "We use catalyzed conversion varnishes that cure harder than standard polyurethane, resisting the swelling that affects many local cabinets."
+          },
+          {
+            "question": "Can you refinish thermofoil or laminate cabinets?",
+            "answer": "With proper preparation techniques, we can refinish most surfaces found in Noblesville and Carmel homes, including problematic thermofoil cabinets from the early 2000s."
+          }
+        ]
+      },
+      {
+        "slug": "historic-home-painting",
+        "name": "Historic Home Painting",
+        "shortDescription": "Sensitive restoration techniques that honor your home's heritage while providing modern protection.",
+        "description": "Indianapolis' architectural treasures—from Irvington's Victorian gems to Meridian-Kessler's Craftsman bungalows—require specialized painting approaches. Our historic home service combines preservation ethics with contemporary technology, using breathable lime washes on original plaster and period-appropriate oil-based finishes where authentic restoration is desired.\n\nWe understand the nuances of Central Indiana's historic housing stock: the soft brick common in Fountain Square, the intricate millwork of Mass Ave commercial conversions, and the delicate stucco found in early 20th century Broad Ripple homes. Our team includes craftsmen trained in traditional techniques, complemented by modern moisture management systems to protect against our region's damaging freeze-thaw cycles.\n\nWorking closely with Indianapolis' historic preservation commission when needed, we help homeowners navigate the delicate balance between preservation requirements and practical durability. From color analysis using historic archives to careful lead paint mitigation, we treat your home's history with the respect it deserves.",
+        "process": [
+          "Step 1: Architectural analysis and historic color research (using Indiana Historical Society resources when needed)",
+          "Step 2: Gentle surface preparation respecting original materials",
+          "Step 3: Application using traditional tools and techniques where appropriate",
+          "Step 4: Final touches that enhance architectural details without overwhelming them"
+        ],
+        "benefits": [
+          "Authentic finishes that increase historic property value",
+          "Specialized techniques to prevent damage to delicate original surfaces",
+          "Knowledge of Indianapolis historic district requirements",
+          "Moisture management systems tailored to old-home materials"
+        ],
+        "faq": [
+          {
+            "question": "Do you handle lead paint encapsulation?",
+            "answer": "Yes, our EPA-certified team follows strict containment protocols for pre-1978 homes, using modern encapsulation systems that are reversible for future preservation work."
+          },
+          {
+            "question": "Can you replicate traditional milk paint finishes?",
+            "answer": "We work with specialty paint manufacturers to recreate authentic finishes while improving durability—particularly valuable for Colonial Revival homes in historic districts."
+          },
+          {
+            "question": "How do you approach painting original wood windows?",
+            "answer": "We use techniques that maintain the windows' operability and historic character while improving energy efficiency—a common concern in Indianapolis' older neighborhoods."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-painting",
+        "name": "Commercial Painting",
+        "shortDescription": "Professional finishes that elevate your business space while minimizing operational disruptions.",
+        "description": "From Monument Circle offices to Carmel retail centers, Indianapolis businesses deserve commercial painting services that understand local market expectations. We specialize in efficient, high-quality applications that respect your operating hours—often completing projects overnight or in phases to avoid customer disruption.\n\nOur commercial team addresses the specific needs of Central Indiana businesses: durable epoxy floors for winter salt tracking in entryways, mold-resistant paints for restaurant kitchens in our humid summers, and vibrant accent walls that pop under Indiana's variable natural light. We're experienced navigating downtown Indianapolis' historic building requirements while delivering modern performance.\n\nFor healthcare facilities in Fishers or educational buildings in Noblesville, we use antimicrobial paints. For automotive businesses near the Speedway, we apply chemical-resistant coatings. Every project begins with a detailed schedule and ends with a sparkling space that reflects your brand's professionalism.",
+        "process": [
+          "Step 1: After-hours assessment to minimize business disruption",
+          "Step 2: Surface preparation tailored to your industry's specific wear patterns",
+          "Step 3: Strategic application scheduling (overnight, weekends, or phased approaches)",
+          "Step 4: Final inspection with attention to high-traffic area durability"
+        ],
+        "benefits": [
+          "Minimized business interruption through flexible scheduling",
+          "Specialized coatings for different commercial environments",
+          "Improved customer perception with fresh, professional spaces",
+          "Long-term value from durable finishes that reduce maintenance costs"
+        ],
+        "faq": [
+          {
+            "question": "Can you paint during our normal business hours?",
+            "answer": "We offer low-odor options and containment systems for daytime work, but typically recommend after-hours projects for retail and office spaces to avoid customer impact."
+          },
+          {
+            "question": "Do you provide touch-up services between full repaints?",
+            "answer": "Yes, we maintain color formulas for clients and can schedule minor touch-ups to address wear in high-traffic areas—common in Indianapolis' harsh winters."
+          },
+          {
+            "question": "How do you handle painting in food service establishments?",
+            "answer": "We use NSF-approved paints and follow strict containment protocols, with experience working around health department inspection schedules in Marion and Hamilton counties."
+          }
+        ]
+      },
+      {
+        "slug": "deck-staining",
+        "name": "Deck Staining",
+        "shortDescription": "Protect your outdoor living space against Indiana's punishing seasonal transitions.",
+        "description": "Indianapolis decks face unique challenges—winter snow loads, summer UV exposure, and constant moisture from our clay soil. Our deck staining service goes beyond cosmetics to provide essential protection, using penetrating oils that nourish wood while resisting the warping and cracking common in our climate.\n\nWe assess each deck's specific needs: north-facing surfaces require different treatment than sun-baked south exposures; lakeside properties near Geist need enhanced water protection; historic homes often benefit from natural tones that complement original architecture. Our multi-step cleaning process removes Midwest mildew and preps surfaces for optimal stain absorption.\n\nFor newer composite decks in Carmel developments, we offer specialized cleaners and UV-protective coatings. For weathered wood decks in established neighborhoods, we provide revitalization techniques that restore without requiring full replacement. The result is an outdoor space ready for Indianapolis' brief but glorious patio seasons.",
+        "process": [
+          "Step 1: Deep cleaning with appropriate methods for your deck material and age",
+          "Step 2: Repair of loose boards, protruding nails, and structural issues",
+          "Step 3: Application of premium stains using techniques that prevent lap marks",
+          "Step 4: Final inspection focusing on railings and high-wear areas"
+        ],
+        "benefits": [
+          "Extended deck lifespan in challenging Midwest conditions",
+          "Enhanced safety with restored traction on walking surfaces",
+          "Custom color options that complement your home's exterior",
+          "Prevention of costly wood replacement from moisture damage"
+        ],
+        "faq": [
+          {
+            "question": "How often should I stain my Indianapolis deck?",
+            "answer": "Most wood decks need refreshing every 2-3 years. We offer maintenance plans that extend this timeline through proper preparation and premium products."
+          },
+          {
+            "question": "Can you stain my deck in spring when it's constantly raining?",
+            "answer": "We monitor weather patterns carefully and use fast-drying formulations when needed. Optimal conditions are 48-72 hours of dry weather, which we typically find in late spring and early fall."
+          },
+          {
+            "question": "Do you repair deck boards as part of the service?",
+            "answer": "Yes, we replace up to 10% of deck boards at no additional labor charge when doing a full stain application—a common need after Indiana winters."
+          }
+        ]
+      },
+      {
+        "slug": "color-consultation",
+        "name": "Color Consultation",
+        "shortDescription": "Expert guidance selecting hues that complement your home's architecture and Indianapolis' light.",
+        "description": "Choosing the right palette for your Indianapolis home involves more than personal preference—it requires understanding how Central Indiana's unique light, seasonal changes, and architectural styles affect color perception. Our consultation service combines artistic sensibility with technical knowledge to create schemes that feel right year-round.\n\nWe analyze your home's specific context: north-facing rooms in Meridian-Kessler need different treatment than sun-drenched Fishers great rooms; historic facades demand period-appropriate hues; modern interiors benefit from shades that combat our gray winters. Using large-format samples and digital visualization tools, we test colors under different lighting conditions before final selection.\n\nFor exterior projects, we consider neighborhood character and Indianapolis' seasonal landscape. For interiors, we account for how furnishings and art interact with our region's variable natural light. The result is a cohesive color story that makes your house feel like home through every season.",
+        "process": [
+          "Step 1: On-site evaluation of lighting conditions and architectural features",
+          "Step 2: Digital and physical sampling of color options",
+          "Step 3: Presentation of complete palette with trim and accent recommendations",
+          "Step 4: Final selection review under different times of day"
+        ],
+        "benefits": [
+          "Avoid costly color mistakes with professional guidance",
+          "Create flow between rooms that respects your home's architecture",
+          "Select hues that look good in both winter grays and summer greenery",
+          "Increase curb appeal with exterior colors that complement neighborhood character"
+        ],
+        "faq": [
+          {
+            "question": "Do you provide color suggestions that meet HOA requirements?",
+            "answer": "Yes, we're familiar with common palette restrictions in Carmel and Fishers communities, and can recommend approved colors that still reflect your personal style."
+          },
+          {
+            "question": "Can you help match colors to my existing furnishings?",
+            "answer": "Absolutely. We consider your furniture, artwork, and flooring to create harmonious schemes—particularly valuable for Indianapolis homes with unique architectural features."
+          },
+          {
+            "question": "How do you account for Indiana's seasonal light changes?",
+            "answer": "We test colors under different conditions and often recommend slightly warmer tones to balance our long winters, while ensuring they don't feel"
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Carmel",
+        "slug": "carmel-in",
+        "state": "IN",
+        "content": "Legacy Painting proudly serves homeowners in Carmel, IN, where upscale homes from the 1980s to 2000s require expert care to maintain their pristine appearance. Our team specializes in handling the challenges posed by cold winters with snow and ice, ensuring your paint job withstands harsh weather. Whether refreshing interiors or exteriors, we deliver high-quality finishes that match Carmel's refined aesthetic.",
+        "localContext": "Carmel is known for its upscale developments and vibrant arts scene, attracting families and professionals.",
+        "nearbyAreas": [
+          "Fishers",
+          "Noblesville",
+          "Westfield"
+        ]
+      },
+      {
+        "city": "Fishers",
+        "slug": "fishers-in",
+        "state": "IN",
+        "content": "Fishers, IN, is home to modern planned communities built from the 1990s to the 2020s, and Legacy Painting is here to keep these homes looking their best. Our services address the wear and tear caused by cold winters with snow and ice, offering durable solutions for both interior and exterior projects. Trust us to enhance your home's curb appeal with precision and professionalism.",
+        "localContext": "Fishers features newer, family-friendly neighborhoods with top-rated schools and parks.",
+        "nearbyAreas": [
+          "Carmel",
+          "Noblesville",
+          "Geist"
+        ]
+      },
+      {
+        "city": "Noblesville",
+        "slug": "noblesville-in",
+        "state": "IN",
+        "content": "In Noblesville, IN, Legacy Painting specializes in preserving the charm of historic homes near the Courthouse Square while meeting the demands of modern living. Our team understands how cold winters with snow and ice can affect paint, so we use weather-resistant products to protect your investment. From historic restorations to contemporary updates, we deliver exceptional results.",
+        "localContext": "Noblesville blends historic architecture with growing suburban developments, offering a unique character.",
+        "nearbyAreas": [
+          "Carmel",
+          "Fishers",
+          "Westfield"
+        ]
+      },
+      {
+        "city": "Westfield",
+        "slug": "westfield-in",
+        "state": "IN",
+        "content": "Legacy Painting serves Westfield, IN, a rapidly growing community with a mix of historic and new construction homes. Our expertise in handling cold winters with snow and ice ensures long-lasting finishes for your property. Whether you're updating a classic home or a new build, we provide tailored solutions to meet your needs.",
+        "localContext": "Westfield is known for its family-friendly atmosphere and the Grand Park sports complex.",
+        "nearbyAreas": [
+          "Carmel",
+          "Noblesville",
+          "Fishers"
+        ]
+      },
+      {
+        "city": "Geist",
+        "slug": "geist-in",
+        "state": "IN",
+        "content": "Geist, IN, is a lakeside community with luxurious homes requiring top-tier painting services. Legacy Painting excels in protecting properties from the effects of cold winters with snow and ice, using premium materials for lasting beauty. Let us enhance your home's elegance with our meticulous attention to detail.",
+        "localContext": "Geist is an affluent area centered around Geist Reservoir, offering waterfront living.",
+        "nearbyAreas": [
+          "Fishers",
+          "Noblesville",
+          "Carmel"
+        ]
+      },
+      {
+        "city": "Zionsville",
+        "slug": "zionsville-in",
+        "state": "IN",
+        "content": "Zionsville, IN, boasts charming brick streets and historic homes that Legacy Painting is proud to service. Our team addresses the challenges of cold winters with snow and ice, ensuring your paint remains vibrant and durable. Trust us to preserve the timeless appeal of your Zionsville property.",
+        "localContext": "Zionsville features a quaint downtown and a strong sense of community.",
+        "nearbyAreas": [
+          "Carmel",
+          "Whitestown",
+          "Lebanon"
+        ]
+      },
+      {
+        "city": "Whitestown",
+        "slug": "whitestown-in",
+        "state": "IN",
+        "content": "Whitestown, IN, is one of the fastest-growing areas in the state, and Legacy Painting is here to meet its painting needs. We understand how cold winters with snow and ice can impact homes, so we use resilient products to safeguard your investment. From new developments to established neighborhoods, we deliver flawless finishes.",
+        "localContext": "Whitestown offers a mix of suburban growth and rural charm, attracting young families.",
+        "nearbyAreas": [
+          "Zionsville",
+          "Lebanon",
+          "Carmel"
+        ]
+      },
+      {
+        "city": "Lebanon",
+        "slug": "lebanon-in",
+        "state": "IN",
+        "content": "Lebanon, IN, combines historic charm with modern living, and Legacy Painting is dedicated to enhancing its homes. Our services are designed to withstand cold winters with snow and ice, providing durable and beautiful results. Whether refreshing a historic property or a new build, we bring expertise and care to every project.",
+        "localContext": "Lebanon is home to the iconic Indianapolis Motor Speedway and a tight-knit community.",
+        "nearbyAreas": [
+          "Whitestown",
+          "Zionsville",
+          "Noblesville"
+        ]
+      },
+      {
+        "city": "Greenwood",
+        "slug": "greenwood-in",
+        "state": "IN",
+        "content": "Legacy Painting serves Greenwood, IN, a thriving suburb with diverse housing styles. Our team is skilled in addressing the effects of cold winters with snow and ice, ensuring your paint remains pristine. From cozy homes to expansive properties, we provide reliable and high-quality painting services.",
+        "localContext": "Greenwood offers a blend of affordability and convenience, with easy access to Indianapolis.",
+        "nearbyAreas": [
+          "Franklin",
+          "Whiteland",
+          "Indianapolis"
+        ]
+      },
+      {
+        "city": "Avon",
+        "slug": "avon-in",
+        "state": "IN",
+        "content": "Avon, IN, is a growing community where Legacy Painting helps homeowners maintain beautiful, weather-resistant finishes. Our expertise in handling cold winters with snow and ice ensures your home stays protected year-round. Whether for interiors or exteriors, we deliver professional results tailored to Avon's needs.",
+        "localContext": "Avon is known for its excellent schools and convenient location near Indianapolis.",
+        "nearbyAreas": [
+          "Plainfield",
+          "Danville",
+          "Brownsburg"
+        ]
+      },
+      {
+        "city": "Brownsburg",
+        "slug": "brownsburg-in",
+        "state": "IN",
+        "content": "Brownsburg, IN, is a family-oriented town where Legacy Painting provides top-notch services to keep homes looking their best. We address the challenges of cold winters with snow and ice, using durable paints to protect your property. Trust us to enhance your home's appeal with our skilled craftsmanship.",
+        "localContext": "Brownsburg combines small-town charm with modern amenities and strong community values.",
+        "nearbyAreas": [
+          "Avon",
+          "Plainfield",
+          "Danville"
+        ]
+      },
+      {
+        "city": "Plainfield",
+        "slug": "plainfield-in",
+        "state": "IN",
+        "content": "Plainfield, IN, is a welcoming community where Legacy Painting delivers exceptional residential painting services. Our team understands the impact of cold winters with snow and ice, offering solutions that stand the test of time. From modern subdivisions to historic homes, we provide personalized service and flawless results.",
+        "localContext": "Plainfield is a hub for shopping and dining, with a relaxed suburban vibe.",
+        "nearbyAreas": [
+          "Avon",
+          "Brownsburg",
+          "Danville"
+        ]
+      }
+    ],
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "500+",
+      "satisfaction": "98%",
+      "teamSize": "15+"
+    },
+    "seo": {
+      "homepage": {
+        "title": "Legacy Painting | Indianapolis",
+        "description": "Legacy Painting serving Indianapolis, IN"
+      },
+      "about": {
+        "title": "About Legacy Painting",
+        "description": "Learn about Legacy Painting"
+      },
+      "services": {
+        "title": "Services | Legacy Painting",
+        "description": "Our services"
+      },
+      "contact": {
+        "title": "Contact Legacy Painting",
+        "description": "Get in touch"
+      },
+      "reviews": {
+        "title": "Reviews | Legacy Painting",
+        "description": "Customer reviews"
+      },
+      "service-areas": {
+        "title": "Service Areas | Legacy Painting",
+        "description": "Areas we serve"
+      }
+    },
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "painting",
+        "text": "Excellent work, very professional team.",
+        "date": "2025-06-15"
+      },
+      {
+        "name": "James R.",
+        "rating": 5,
+        "service": "painting",
+        "text": "On time, on budget, and great results.",
+        "date": "2025-08-20"
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "interior-painting": "/images/service-interior-painting.webp",
+      "exterior-painting": "/images/service-exterior-painting.webp",
+      "cabinet-refinishing": "/images/service-cabinet-refinishing.webp",
+      "historic-home-painting": "/images/service-historic-home-painting.webp",
+      "commercial-painting": "/images/service-commercial-painting.webp",
+      "deck-staining": "/images/service-deck-staining.webp",
+      "color-consultation": "/images/service-color-consultation.webp"
+    },
+    "servicesResponsive": {
+      "interior-painting": {
+        "src": "/images/service-interior-painting.webp",
+        "srcset": "/images/service-interior-painting-400w.webp 400w, /images/service-interior-painting-800w.webp 800w, /images/service-interior-painting-1200w.webp 1200w, /images/service-interior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "exterior-painting": {
+        "src": "/images/service-exterior-painting.webp",
+        "srcset": "/images/service-exterior-painting-400w.webp 400w, /images/service-exterior-painting-800w.webp 800w, /images/service-exterior-painting-1200w.webp 1200w, /images/service-exterior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "cabinet-refinishing": {
+        "src": "/images/service-cabinet-refinishing.webp",
+        "srcset": "/images/service-cabinet-refinishing-400w.webp 400w, /images/service-cabinet-refinishing-800w.webp 800w, /images/service-cabinet-refinishing-1200w.webp 1200w, /images/service-cabinet-refinishing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "historic-home-painting": {
+        "src": "/images/service-historic-home-painting.webp",
+        "srcset": "/images/service-historic-home-painting-400w.webp 400w, /images/service-historic-home-painting-800w.webp 800w, /images/service-historic-home-painting-1200w.webp 1200w, /images/service-historic-home-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-painting": {
+        "src": "/images/service-commercial-painting.webp",
+        "srcset": "/images/service-commercial-painting-400w.webp 400w, /images/service-commercial-painting-800w.webp 800w, /images/service-commercial-painting-1200w.webp 1200w, /images/service-commercial-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-staining": {
+        "src": "/images/service-deck-staining.webp",
+        "srcset": "/images/service-deck-staining-400w.webp 400w, /images/service-deck-staining-800w.webp 800w, /images/service-deck-staining-1200w.webp 1200w, /images/service-deck-staining.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "color-consultation": {
+        "src": "/images/service-color-consultation.webp",
+        "srcset": "/images/service-color-consultation-400w.webp 400w, /images/service-color-consultation-800w.webp 800w, /images/service-color-consultation-1200w.webp 1200w, /images/service-color-consultation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
